@@ -39,10 +39,10 @@ config:
   look: handDrawn
 ---
 flowchart TD
-    C(BMI BREAKOUT BOARD)-->|GND|J8
-    C(BMI BREAKOUT BOARD)-->|3V3|J9
-    C(BMI BREAKOUT BOARD)-->|SDA|J6
-    C(BMI BREAKOUT BOARD)-->|SCL|J5
+    C(BMI BREAKOUT BOARD)-->|GND|J8---D(ESP32)
+    C(BMI BREAKOUT BOARD)-->|3V3|J9---D
+    C(BMI BREAKOUT BOARD)-->|SDA|J6---D
+    C(BMI BREAKOUT BOARD)-->|SCL|J5---D
 ```
 
 Motors:
