@@ -16,70 +16,33 @@ A high-performance, open-source 3-axis smartphone gimbal built from scratch usin
    * Teaching Mode: Motors disengage for 5 seconds, allowing the user to manually pose the camera before auto-locking the new angle.
    * Selfie/Statue Mode: A dedicated 6 second setup window to lock the gimbal in arbitrary static positions.
 <hr></hr>
-<details open>
+<details>
   <summary><h2>External wiring diagrams</h2></summary>
   
-  ### Battery:
-  ```mermaid
-  ---
-  config:
-    look: handDrawn
-  ---
-  flowchart LR
-      A(Cell 1)-->|+ve|B(Cell 2)-->|+ve|C(Cell 3)
-      A(Cell 1)-->|+ve|F(B1)---D
-      A(Cell 1)-->|-ve|E(B-)---D(BMS)
-      B(Cell 2)-->|+ve|G(B2)---D
-      C(Cell 3)-->|+ve|H(B+)---D
-      D-->J10
-  ```
-  ### Handle wiring:
-  ```mermaid
-  ---
-  config:
-    look: handDrawn
-  ---
-  flowchart TD
-      A@{ shape: dbl-circ, label: "Rocker Switch" }-->J14
-      B@{ shape: dbl-circ, label: "Momentary
-  Button 1" }-->J7
-      D@{ shape: dbl-circ, label: "Momentary
-  Button 2" }-->J4
-      E@{ shape: dbl-circ, label: "Momentary
-  Button 3" }-->J2
-      LED@{ shape: dbl-circ, label: "LED" }-->J3
-  ```
-  ### BMI270 Breakout Board:
-  ```mermaid
-  ---
-  config:
-    look: handDrawn
-  ---
-  flowchart TD
-      C(BMI BREAKOUT BOARD)-->|GND|J8---D(ESP32)
-      C(BMI BREAKOUT BOARD)-->|3V3|J9---D
-      C(BMI BREAKOUT BOARD)-->|SDA|J6---D
-      C(BMI BREAKOUT BOARD)-->|SCL|J5---D
-  ```
-  ### Motors:
-  ```mermaid
-  ---
-  config:
-    look: handDrawn
-  ---
-  flowchart TD
-      J11-->|OUT1|D(Motor 1)
-      J11-->|OUT2|D(Motor 1)
-      J11-->|OUT3|D(Motor 1)
+### Battery:
+![](https://mermaid.ink/img/pako:eNp1UU1PgzAY_ivNe2IZXUpZB_RgIsOPGL3ozXBp1g7IoF0qOHXbf7eAW5aot_f5Prx7WBmpgAPGONcIrYxeVwXvT4RqYzYclULLzIqdzvVgWtdmtyqFbdHj8-i79paqrlEwwfjqMH1Xh3Qk6JlYjkQ4-Sdw66U9wNkfOnb6jZfiQffSp5efkl8jd15KL0rOmyf93kunF3rm-IeAgA-FrSTwtajflA-Nso3oMex7Xw5tqRqVA3enFHaTQ66PLrQV-tWYBnhrOxezpivKE-i2UrQqq0RhRXNutkpLZZem0y1wFgwVwPfwATyIwtmCkGQxp4tgHjLCfPh0NItnYZwklM3jiAYhYUcfvoZVMmNxGNGIEOoCMUsSH5SsWmOfxocOfz1-AyY-iIE?type=png)
+<!--
+https://mermaid.live/edit#pako:eNp1UU1PgzAY_ivNe2IZXUpZB_RgIsOPGL3ozXBp1g7IoF0qOHXbf7eAW5aot_f5Prx7WBmpgAPGONcIrYxeVwXvT4RqYzYclULLzIqdzvVgWtdmtyqFbdHj8-i79paqrlEwwfjqMH1Xh3Qk6JlYjkQ4-Sdw66U9wNkfOnb6jZfiQffSp5efkl8jd15KL0rOmyf93kunF3rm-IeAgA-FrSTwtajflA-Nso3oMex7Xw5tqRqVA3enFHaTQ66PLrQV-tWYBnhrOxezpivKE-i2UrQqq0RhRXNutkpLZZem0y1wFgwVwPfwATyIwtmCkGQxp4tgHjLCfPh0NItnYZwklM3jiAYhYUcfvoZVMmNxGNGIEOoCMUsSH5SsWmOfxocOfz1-AyY-iIE
+-->
   
-      J12-->|OUT1|E(Motor 2)
-      J12-->|OUT2|E(Motor 2)
-      J12-->|OUT3|E(Motor 2)
+### Handle wiring:
+![](https://mermaid.ink/img/pako:eNqVkj1vgzAQhv_K6WaI-HIAD1WbkqVqlrZT5cXBDqCAHTlGaYr474Wkzhgpm8_3Ps_dcAOWWkik6Ps-UwClVrumovMToNV6T6HmShSGnxRT_6Fdq09lzY2Fr-KaBHh5HuBY84OkILatXzam9KDlW9lSYPihy7008HlqbFkzhNH3n97CxMGru_BGd1JZbs5zfNVbqxWETpI6R_GwI3KO2x7rhx2xc0TO8b6-v8nUd0yMHlamEUh3vD1KDztpOj7XOMw6hraWnWQ4c4KbPUOmxgk6cPWtdYfUmn7CjO6r2hX9QXAri4ZXhnc3s5FKSPOqe2WREnJRIB3wB2mYxotlEOTLJFqGSUyCqXuevkm2iLM8j0iSpVEYB2T08PcyNViQLE6jNAiiCchInnsoRWO12VyP6XJT4x85e7cJ?type=png)
+<!--
+https://mermaid.live/edit#pako:eNqVkj1vgzAQhv_K6WaI-HIAD1WbkqVqlrZT5cXBDqCAHTlGaYr474Wkzhgpm8_3Ps_dcAOWWkik6Ps-UwClVrumovMToNV6T6HmShSGnxRT_6Fdq09lzY2Fr-KaBHh5HuBY84OkILatXzam9KDlW9lSYPihy7008HlqbFkzhNH3n97CxMGru_BGd1JZbs5zfNVbqxWETpI6R_GwI3KO2x7rhx2xc0TO8b6-v8nUd0yMHlamEUh3vD1KDztpOj7XOMw6hraWnWQ4c4KbPUOmxgk6cPWtdYfUmn7CjO6r2hX9QXAri4ZXhnc3s5FKSPOqe2WREnJRIB3wB2mYxotlEOTLJFqGSUyCqXuevkm2iLM8j0iSpVEYB2T08PcyNViQLE6jNAiiCchInnsoRWO12VyP6XJT4x85e7cJ
+-->
   
-      J13-->|OUT1|F(Motor 3)
-      J13-->|OUT2|F(Motor 3)
-      J13-->|OUT3|F(Motor 3)
-  ```
+### BMI270 Breakout Board:
+![](https://mermaid.ink/img/pako:eNqNkctuwjAQRX_FmhVICTIxzsOLSoBR1fRBBbSLKhsLmySC2MhNRFvCv9cJatfs5lrnXGs0Z9gaqYCB7_uZRmhr9K7MWTcidDBmz1AhtORWnHSme2h3MKdtIWyNNvzKITQfzJ4fggij2WoxfVy-bdBsOV3xoe_ftfcvvE1jp_LBYv1KguEtEnknbZp00i30mk_bNLyZnj-1Ke1o8CC3pQS2E4dP5UGlbCW6DOeuKIO6UJXKgLlRCrvPINMXJx2F_jCmAlbbxmnWNHnxF5qjFLXipcitqP6brdJS2blpdA1sjKO-A9gZvlyMyCjEOAknQTieEIqpB9_umcYjEidJQCdxFIwJphcPfvpv8YjGJHLr4cAJMU0SD5Qsa2Ofr9fsj3r5BQMWhVA?type=png)
+<!--
+https://mermaid.live/edit#pako:eNqNkctuwjAQRX_FmhVICTIxzsOLSoBR1fRBBbSLKhsLmySC2MhNRFvCv9cJatfs5lrnXGs0Z9gaqYCB7_uZRmhr9K7MWTcidDBmz1AhtORWnHSme2h3MKdtIWyNNvzKITQfzJ4fggij2WoxfVy-bdBsOV3xoe_ftfcvvE1jp_LBYv1KguEtEnknbZp00i30mk_bNLyZnj-1Ke1o8CC3pQS2E4dP5UGlbCW6DOeuKIO6UJXKgLlRCrvPINMXJx2F_jCmAlbbxmnWNHnxF5qjFLXipcitqP6brdJS2blpdA1sjKO-A9gZvlyMyCjEOAknQTieEIqpB9_umcYjEidJQCdxFIwJphcPfvpv8YjGJHLr4cAJMU0SD5Qsa2Ofr9fsj3r5BQMWhVA
+-->
+
+### Motors:
+![](https://mermaid.ink/img/pako:eNp9kstqwzAQRX9FzKoGO1iSH7EW3dTtohC6STfFGxHJDxJLQZVJW8f_XsVJkxKDF4I7c-7cQTA9bLSQwCAIgkIhtNGqbCp2kgjttN4yVHMlcsMPqlCjqdzpw6bmxqJ1fvYh9IpxEDwe397X-Jg_rLTVBmFvSskspXf05iDX9OeLg3hTSmYpvaM3B72mv1wc1JtSMkvpPwo-VKYRwEq--5Q-tNK0_FRDPy4GW8tWFsCcFNxsCyjU4Ib2XH1o3QKzpnNjRndV_Vd0e8GtzBteGd5ek41UQpon3SkLDNN4zADWw5crE7LIsoyE0TKOQ0LSpQ_frh0lC_dwlCURzghOBx9-xq3hIqYhjtIwjROn0oT4IEXj_rQ638h4KsMv4dSfuQ?type=png)
+<!--
+https://mermaid.live/edit#pako:eNp9kstqwzAQRX9FzKoGO1iSH7EW3dTtohC6STfFGxHJDxJLQZVJW8f_XsVJkxKDF4I7c-7cQTA9bLSQwCAIgkIhtNGqbCp2kgjttN4yVHMlcsMPqlCjqdzpw6bmxqJ1fvYh9IpxEDwe397X-Jg_rLTVBmFvSskspXf05iDX9OeLg3hTSmYpvaM3B72mv1wc1JtSMkvpPwo-VKYRwEq--5Q-tNK0_FRDPy4GW8tWFsCcFNxsCyjU4Ib2XH1o3QKzpnNjRndV_Vd0e8GtzBteGd5ek41UQpon3SkLDNN4zADWw5crE7LIsoyE0TKOQ0LSpQ_frh0lC_dwlCURzghOBx9-xq3hIqYhjtIwjROn0oT4IEXj_rQ638h4KsMv4dSfuQ
+-->
+
 </details>
 <hr></hr>
 <details>
@@ -96,6 +59,11 @@ A high-performance, open-source 3-axis smartphone gimbal built from scratch usin
 <hr></hr>
 <details>
   <summary><h2>3D Printed Body</h2></summary>
+Handle:
+<img width="500" height="500" src="https://github.com/user-attachments/assets/8a1dd7b0-ec15-4932-90e8-a8ea72237f35" />
+
+Handle Enclosure:
+
 
   
 </details>
