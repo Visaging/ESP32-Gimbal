@@ -1,7 +1,25 @@
 # Gimbal
-later :p
+A high-performance, open-source 3-axis smartphone gimbal built from scratch using a custom PCB and the SimpleFOC library. This project features real-time stabilization, native USB-C programming, and custom motion modes.
 
-Battery:
+## Hardware Stack
+- **MCU:** ESP32-S3-WROOM-1-N8R2
+- **Sensors:** BMI270 6-Axis IMU (I2C)
+- **Drivers:** 3x DRV8313 Three-Phase Drivers
+- **Motors:** 2805 140KV Gimbal BLDC Motors
+- **Power:** Custom 3S Li-Ion BMS with CN3303 Charging & TPS563200 Regulation
+
+## Key Features
+- **Active Stabilization:** High-frequency FOC loop with smart Yaw/Pan drift cancellation.
+- **Native USB-C:** Supports both battery charging (12.6V boost) and firmware upload via the same port.
+- **3 Operation Modes:**
+   * Stabilize: Standard horizon leveling and pan following.
+   * Teaching Mode: Motors disengage for 5 seconds, allowing the user to manually pose the camera before auto-locking the new angle.
+   * Selfie/Statue Mode: A dedicated 6 second setup window to lock the gimbal in arbitrary static positions.
+<hr></hr>
+<details>
+<summary><h2>External wiring diagrams</h2></summary>
+  
+### Battery:
 ```mermaid
 ---
 config:
@@ -14,8 +32,7 @@ flowchart LR
     B(Cell 2)-->|+ve|G(B2)---D
     D-->J10
 ```
-
-Handle wiring:
+### Handle wiring:
 ```mermaid
 ---
 config:
@@ -31,8 +48,7 @@ Button 2" }-->J4
 Button 3" }-->J2
     LED@{ shape: dbl-circ, label: "LED" }-->J3
 ```
-
-BMI270 Breakout Board:
+### BMI270 Breakout Board:
 ```mermaid
 ---
 config:
@@ -44,8 +60,7 @@ flowchart TD
     C(BMI BREAKOUT BOARD)-->|SDA|J6---D
     C(BMI BREAKOUT BOARD)-->|SCL|J5---D
 ```
-
-Motors:
+### Motors:
 ```mermaid
 ---
 config:
@@ -64,3 +79,23 @@ flowchart TD
     J13-->|OUT2|F(Motor 3)
     J13-->|OUT3|F(Motor 3)
 ```
+</details>
+<hr></hr>
+<details>
+  <summary><h2>PCB Schematics</h2></summary>
+
+  
+</details>
+<hr></hr>
+<details>
+  <summary><h2>PCB Layout and Render</h2></summary>
+
+  
+</details>
+<hr></hr>
+<details>
+  <summary><h2>3D Printed Body</h2></summary>
+
+  
+</details>
+<hr></hr>
