@@ -26,10 +26,11 @@ A high-performance, open-source 3-axis smartphone gimbal built from scratch usin
     look: handDrawn
   ---
   flowchart LR
-      A(Cell 1)-->|+ve|B(Cell 2)-->|+ve|C(Cell 3)---|+ve|D
+      A(Cell 1)-->|+ve|B(Cell 2)-->|+ve|C(Cell 3)
       A(Cell 1)-->|+ve|F(B1)---D
       A(Cell 1)-->|-ve|E(B-)---D(BMS)
       B(Cell 2)-->|+ve|G(B2)---D
+      C(Cell 3)-->|+ve|H(B+)---D
       D-->J10
   ```
   ### Handle wiring:
