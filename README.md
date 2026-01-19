@@ -3,6 +3,10 @@ later :p
 
 Battery:
 ```mermaid
+---
+config:
+  look: handDrawn
+---
 flowchart LR
     A(Cell 1)-->|+ve|B(Cell 2)-->|+ve|C(Cell 3)---|+ve|D
     A(Cell 1)-->|+ve|F(B1)---D
@@ -13,6 +17,10 @@ flowchart LR
 
 Handle wiring:
 ```mermaid
+---
+config:
+  look: handDrawn
+---
 flowchart TD
     A@{ shape: dbl-circ, label: "Rocker Switch" }-->J14
     B@{ shape: dbl-circ, label: "Momentary
@@ -26,6 +34,10 @@ Button 3" }-->J2
 
 BMI270 Breakout Board:
 ```mermaid
+---
+config:
+  look: handDrawn
+---
 flowchart TD
     C(BMI BREAKOUT BOARD)-->|GND|J8
     C(BMI BREAKOUT BOARD)-->|3V3|J9
@@ -35,6 +47,10 @@ flowchart TD
 
 Motors:
 ```mermaid
+---
+config:
+  look: handDrawn
+---
 flowchart TD
     J11-->|OUT1|D(Motor 1)
     J11-->|OUT2|D(Motor 1)
