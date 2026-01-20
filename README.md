@@ -9,15 +9,15 @@ Because apparently holding a phone parallel to the ground requires too much calo
 - **Power:** Custom 3S Li-Ion BMS with CN3303 Charging & TPS563200 Regulation _(Because USB 5V is for the weak)_
 
 ## Key Features
-- **Active Stabilization:** Uses high-frequency FOC math to micro-manage gravity so you don't have to using "muscles".
+- **Active Stabilization:** Uses high-frequency FOC math to micro-manage gravity so you don't have to use "muscles".
 - **Native USB-C:** One cable to code it and charge it, because looking for two different cables is just too much work.
 - **3 Operation Modes:**
    * Stabilize: Standard horizon leveling and pan following.
    * Teaching Mode: Lets you manually twist the camera to a weird angle, then waits 5 seconds to realize you aren't going to move it back, so it locks there for you.
-   * Selfie/Statue Mode: A dedicated mode that gives you 6 seconds to pose the camera, then freezes it in place indefinitely—because apparently holding a selfie angle is considered cardio now.
+   * Selfie/Statue Mode: A dedicated mode that gives you 6 seconds to pose the camera, then freezes it in place indefinitely because apparently holding a selfie angle is considered cardio now.
 <hr></hr>
 <details>
-  <summary><h2>Spaghetti Management (External Wiring Diagrams)</h2></summary>
+  <summary><h2>External Wiring Diagrams</h2></summary>
   
 ### Battery:
 ![](https://mermaid.ink/img/pako:eNp1UU1PgzAY_ivNe2IZXUpZB_RgIsOPGL3ozXBp1g7IoF0qOHXbf7eAW5aot_f5Prx7WBmpgAPGONcIrYxeVwXvT4RqYzYclULLzIqdzvVgWtdmtyqFbdHj8-i79paqrlEwwfjqMH1Xh3Qk6JlYjkQ4-Sdw66U9wNkfOnb6jZfiQffSp5efkl8jd15KL0rOmyf93kunF3rm-IeAgA-FrSTwtajflA-Nso3oMex7Xw5tqRqVA3enFHaTQ66PLrQV-tWYBnhrOxezpivKE-i2UrQqq0RhRXNutkpLZZem0y1wFgwVwPfwATyIwtmCkGQxp4tgHjLCfPh0NItnYZwklM3jiAYhYUcfvoZVMmNxGNGIEOoCMUsSH5SsWmOfxocOfz1-AyY-iIE?type=png)
@@ -49,19 +49,19 @@ https://mermaid.live/edit#pako:eNp9kstqwzAQRX9FzKoGO1iSH7EW3dTtohC6STfFGxHJDxJLQ
 </details>
 <hr></hr>
 <details>
-  <summary><h2>The "Trust Me, It Works" Schematics</h2></summary>
+  <summary><h2>PCB Schematics</h2></summary>
 <img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/a1597c18-d900-4c81-82a0-5f736e6f7ad0" />
 <img width="2480" height="1748" alt="image" src="https://github.com/user-attachments/assets/38abb279-5b1a-4a33-9dc9-f7baf6ae8d7d" />
 </details>
 <hr></hr>
 <details>
-  <summary><h2>Pretty Pictures of Expensive Sand (PCB Layout)</h2></summary>
+  <summary><h2>PCB Layout and Render</h2></summary>
 <img width="346" height="765" alt="image" src="https://github.com/user-attachments/assets/ac17bc1b-6d54-443e-aa5e-357d01954536" />
 <img width="1723" height="892" alt="image" src="https://github.com/user-attachments/assets/a846b01d-ea0d-4b22-bc0f-d6402903df3b" />
 </details>
 <hr></hr>
 <details>
-  <summary><h2>The "It Fits If You Push Hard Enough" Case (3D Body)</h2></summary>
+  <summary><h2>Custom Body (3D Model)</h2></summary>
 
 ### Handle:
 
