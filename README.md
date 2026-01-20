@@ -120,7 +120,7 @@ TBA
 ## Future Bugs... I Mean Features (Roadmap)
 Things I might add if I ever get bored of it working perfectly
 
-- [ ] Bluetooth App Control the gimbal with a phone _(because looking at two screens is better than one)._
+- [ ] Bluetooth App: Control the gimbal with a phone _(because looking at two screens is better than one)._
 - [ ] Face Tracking: If I can figure out how to run AI on this chip without it catching fire.
 
 ## Liability Waiver (License)
