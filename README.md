@@ -56,8 +56,8 @@ https://mermaid.live/edit#pako:eNp9kstqwzAQRX9FzKoGO1iSH7EW3dTtohC6STfFGxHJDxJLQ
 <hr></hr>
 <details>
   <summary><h2>PCB Layout and Render</h2></summary>
-<img width="346" height="765" alt="image" src="https://github.com/user-attachments/assets/ac17bc1b-6d54-443e-aa5e-357d01954536" />
-<img width="1723" height="892" alt="image" src="https://github.com/user-attachments/assets/a846b01d-ea0d-4b22-bc0f-d6402903df3b" />
+<img width="390" height="796" alt="image" src="https://github.com/user-attachments/assets/c2b58327-9d58-4509-aeff-ed65026efaee" />
+<img width="1723" height="892" alt="image" src="https://github.com/user-attachments/assets/99fe7bb0-3be4-4f23-83fb-32194be451fe" />
 </details>
 <hr></hr>
 <details>
