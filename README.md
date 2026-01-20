@@ -117,6 +117,11 @@ https://mermaid.live/edit#pako:eNp9kstqwzAQRX9FzKoGO1iSH7EW3dTtohC6STfFGxHJDxJLQ
 
 ## Financial Damage Report (Bill of Material)
 BOM can be found in the  root older as a .csv, and is also viewable here: [Custom Gimble BOM](https://docs.google.com/spreadsheets/d/1aBBvSRlrgi5838ZnFZRnFuO4f2IFtYvHOy1n1r-4Mq0/edit?usp=sharing)
+<details>
+  <summary>JLCPCB Order</summary>
+  
+<img width="1919" height="844" alt="image" src="https://github.com/user-attachments/assets/6c259940-370d-4574-9ff7-ea6ded9cf614" />
+</details>
 
 ## Future Bugs... I Mean Features (Roadmap)
 Things I might add if I ever get bored of it working perfectly
