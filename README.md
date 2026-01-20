@@ -65,7 +65,7 @@ https://mermaid.live/edit#pako:eNp9kstqwzAQRX9FzKoGO1iSH7EW3dTtohC6STfFGxHJDxJLQ
 
 ### Handle:
 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8a1dd7b0-ec15-4932-90e8-a8ea72237f35" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/650f554e-ba6d-45af-9a29-d58d53ea8497" />
 <hr></hr>
 
 ### Handle Top:
