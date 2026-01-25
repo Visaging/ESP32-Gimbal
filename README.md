@@ -50,15 +50,14 @@ https://mermaid.live/edit#pako:eNp9kstqwzAQRX9FzKoGO1iSH7EW3dTtohC6STfFGxHJDxJLQ
 <hr></hr>
 <details>
   <summary><h2>PCB Schematics</h2></summary>
-<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/a1597c18-d900-4c81-82a0-5f736e6f7ad0" />
-<img width="2480" height="1748" alt="image" src="https://github.com/user-attachments/assets/38abb279-5b1a-4a33-9dc9-f7baf6ae8d7d" />
+<img width="3507" height="2480" alt="image" src="https://github.com/user-attachments/assets/3ebabdf8-e8c6-42fc-9b8f-289073bf15c8" />
+<img width="2480" height="1748" alt="image" src="https://github.com/user-attachments/assets/e4b800c1-810f-4cad-9d3f-c3e218bfd6b9" />
 </details>
 <hr></hr>
 <details>
   <summary><h2>PCB Layout and Render</h2></summary>
-<img width="474" height="805" alt="image" src="https://github.com/user-attachments/assets/daabac86-74fb-4fe6-8ff0-e690f1cb35c7" />
-<img width="1723" height="892" alt="image" src="https://github.com/user-attachments/assets/f3b6cf3c-ce97-4bf4-a2ae-7875c07d355e" />
-
+<img width="459" height="804" alt="image" src="https://github.com/user-attachments/assets/093b0e17-b1a9-4ac5-89f9-38f6b404f5b5" />
+<img width="1723" height="892" alt="image" src="https://github.com/user-attachments/assets/02020ca8-2656-4c92-ab19-03fd7970ca9c" />
 </details>
 <hr></hr>
 <details>
