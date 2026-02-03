@@ -119,11 +119,37 @@ BOM can be found in the  root older as a .csv, and is also viewable here: [Custo
 <details>
   <summary>JLCPCB Order</summary>
 
-<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/1dd86a5b-3838-41a9-b796-754eca07cf4b" />
-<img width="1919" height="964" alt="image" src="https://github.com/user-attachments/assets/0431b4cc-ab81-4917-828b-8005988739b8" />
-<img width="857" height="745" alt="image" src="https://github.com/user-attachments/assets/3bd264b4-7a64-4fd1-8bb3-ab1d97869d97" />
-
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a12641d3-5422-4c0a-a17e-5cdc696cc877" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/732ee6da-ca5a-4966-979d-d6e2e52a1119" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4105eba5-b7ae-4318-ba90-29e5ff51bf66" />
 </details>
+<details>
+  <summary>Carts</summary>
+  
+### Robu
+  
+<img width="1920" height="1020" alt="Robu" src="https://github.com/user-attachments/assets/6bc5b1a6-f213-41c4-a602-f40ef76c123a" />
+<hr></hr>
+
+### OnlyScrews
+
+<img width="1920" height="1020" alt="OnlyScrews" src="https://github.com/user-attachments/assets/431f23e0-6e54-4894-90a6-8315c836a59c" />
+<hr></hr>
+
+### ElectroPi
+
+<img width="1920" height="1020" alt="ElectroPi" src="https://github.com/user-attachments/assets/3abf74ab-fc0f-4cd7-941b-d87a747c4e58" />
+<hr></hr>
+
+### Evalta
+
+<img width="1920" height="1020" alt="Evalta" src="https://github.com/user-attachments/assets/23c58888-66ea-484e-958a-d6ce689fd441" />
+<hr></hr>
+
+### Amazon
+<img width="1920" height="1020" alt="Amazon" src="https://github.com/user-attachments/assets/a9595642-db3b-4ed6-b11a-9df9eb8d7f9f" />
+</details>
+
 
 ## Future Bugs... I Mean Features (Roadmap)
 Things I might add if I ever get bored of it working perfectly
